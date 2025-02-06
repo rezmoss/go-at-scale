@@ -49,4 +49,4 @@ Welcome to the **official companion repository** for _Pro Go Patterns_. Here, yo
 ## Learn More or Buy the Book
 For more details, deeper explanations, and additional tips on applying these patterns in real-world scenarios, [visit the author page](https://www.amazon.com/author/rezmoss).
 
-We hope this repository helps you explore and master the advanced patterns covered in _Pro Go Patterns: Advanced Function Design, Concurrency Models, and Clean Code_. Happy coding!
+I hope this repository helps you explore and master the advanced patterns covered in _Pro Go Patterns: Advanced Function Design, Concurrency Models, and Clean Code_. Happy coding!
