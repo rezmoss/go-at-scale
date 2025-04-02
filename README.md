@@ -1,9 +1,9 @@
-# Pro Go Patterns: Advanced Function Design, Concurrency Models, and Clean Code
+# Go at Scale : Patterns for Professional Development
 
 [![Book Cover](./cover.png)](https://www.amazon.com/author/rezmoss)  
 <sup>_Click the cover to learn more or purchase the book._</sup>
 
-Welcome to the **official companion repository** for _Pro Go Patterns_. Here, you’ll find all the Go source files and practical examples referenced throughout the chapters and appendices. Each folder corresponds to a specific chapter or appendix, containing example code that demonstrates the advanced patterns, concurrency models, and clean coding techniques discussed in the book.
+Welcome to the **official companion repository** for _Go at Scale_. Here, you’ll find all the Go source files and practical examples referenced throughout the chapters and appendices. Each folder corresponds to a specific chapter or appendix, containing example code that demonstrates the advanced patterns, concurrency models, and clean coding techniques discussed in the book.
 
 ---
 
@@ -49,4 +49,4 @@ Welcome to the **official companion repository** for _Pro Go Patterns_. Here, yo
 ## Learn More or Buy the Book
 For more details, deeper explanations, and additional tips on applying these patterns in real-world scenarios, [visit the author page](https://www.amazon.com/author/rezmoss).
 
-I hope this repository helps you explore and master the advanced patterns covered in _Pro Go Patterns: Advanced Function Design, Concurrency Models, and Clean Code_. Happy coding!
+I hope this repository helps you explore and master the advanced patterns covered in _Go at Scale: Patterns for Professional Development_. Happy coding!
