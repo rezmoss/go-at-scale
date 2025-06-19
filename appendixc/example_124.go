@@ -18,7 +18,7 @@ func (mm *MigrationManager) ApplyZeroDowntimeMigration(ctx context.Context, migr
         {"validate data", mm.executeStep(migration.Validate)},
         {"cleanup", mm.executeStep(migration.Cleanup)},
     }
-    
+    //Important: In a real-world application, a secure migration tool would parse and execute these operations, below is a simplified example and should not be used in production and is not secure
     for _, step := range steps {
         if err := step.fn(ctx); err != nil {
             return fmt.Errorf("step %s failed: %w", step.name, err)

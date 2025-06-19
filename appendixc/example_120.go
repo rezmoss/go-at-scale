@@ -47,6 +47,7 @@ type BaseRepository[T any] struct {
 }
 
 func (r *BaseRepository[T]) Create(ctx context.Context, entity T) error {
+	//Important: In a real-world application, a secure migration tool would parse and execute these operations, below is a simplified example and should not be used in production and is not secure
     query := fmt.Sprintf("INSERT INTO %s (...) VALUES (...)", r.tableName)
     _, err := r.db.ExecContext(ctx, query /* args */)
     return err

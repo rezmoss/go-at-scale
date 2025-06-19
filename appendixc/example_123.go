@@ -20,7 +20,7 @@ func (mm *MigrationManager) Initialize(ctx context.Context) error {
             applied_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
         )
     `
-    
+    //Important: In a real-world application, a secure migration tool would parse and execute these operations, below is a simplified example and should not be used in production and is not secure
     _, err := mm.db.ExecContext(ctx, createMigrationsTable)
     return err
 }
@@ -59,7 +59,7 @@ func (mm *MigrationManager) applyMigration(ctx context.Context, tx *sql.Tx, migr
     const insertMigration = `
         INSERT INTO migrations (id, name) VALUES ($1, $2)
     `
-    
+    //Important: In a real-world application, a secure migration tool would parse and execute these operations, below is a simplified example and should not be used in production and is not secure
     if _, err := tx.ExecContext(ctx, insertMigration, migration.ID, migration.Name); err != nil {
         return fmt.Errorf("recording migration %s: %w", migration.Name, err)
     }

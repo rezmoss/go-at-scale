@@ -106,7 +106,7 @@ func (sm *StorageManager) Download(ctx context.Context, key string) ([]byte, err
         }
         defer reader.Close()
 
-        data, err = ioutil.ReadAll(reader)
+        data, err = io.ReadAll(reader)
         if err != nil {
             sm.logger.Error("reading data failed",
                 "attempt", attempt,
