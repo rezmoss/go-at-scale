@@ -1,52 +1,69 @@
-# Go at Scale : Patterns for Professional Development
+<a href="https://www.amazon.com/Go-Scale-Patterns-Professional-Development/dp/1069363006">
+  <img src="https://rezmoss.com/images/book2.png" alt="Go at Scale Book Cover" width="200" align="right" />
+</a>
 
-[![Book Cover](./cover.png)](https://www.amazon.com/author/rezmoss)  
-<sup>_Click the cover to learn more or purchase the book._</sup>
+# Go at Scale — Companion Code
 
-Welcome to the **official companion repository** for _Go at Scale_. Here, you’ll find all the Go source files and practical examples referenced throughout the chapters and appendices. Each folder corresponds to a specific chapter or appendix, containing example code that demonstrates the advanced patterns, concurrency models, and clean coding techniques discussed in the book.
+[![Amazon](https://img.shields.io/badge/📘_Buy_on-Amazon-orange?style=for-the-badge)](https://www.amazon.com/Go-Scale-Patterns-Professional-Development/dp/1069363006)
+[![Go 1.18+](https://img.shields.io/badge/Go-1.18+-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev)
+
+**Go at Scale: Patterns for Professional Development** by [Rez Moss](https://rezmoss.com)
+
+528 pages · 14 chapters · ISBN 978-1-0693630-0-8 · Paperback
+
+All Go source files and practical examples referenced throughout the book.
 
 ---
 
-## Repository Overview
+## What's in the Book
+
+| Chapters | Topics |
+|----------|--------|
+| 1–3 | Function Fundamentals, Higher-Order Functions, Functional Programming Patterns |
+| 4–6 | Goroutine Patterns, Channel Patterns, Synchronization Patterns |
+| 7–8 | Code Organization, Design Patterns in Go |
+| 9 | Production-Ready Code |
+| 10 | GraphQL Implementation Patterns |
+| 11 | Event-Driven Architecture Patterns |
+| 12 | Microservices Communication Patterns |
+| 13 | Disaster Recovery Patterns |
+| 14 | Data Migration Patterns |
+| Appendices | Go Tooling, Common Pitfalls, RealWorld Patterns, Decision Trees |
+
+## Repository Structure
 
 ```
-├── chapter1
-│   ├── example_0.go
-│   ├── example_1.go
-│   ├── ...
-├── chapter2
-│   ├── example_9.go
-│   ├── example_10.go
-│   ├── ...
-...
-├── chapter14
-│   ├── example_85.go
-│   ├── example_86.go
-│   ├── ...
-├── appendixa
-│   ├── example_90.go
-│   ├── example_91.sh
-│   ├── ...
-├── appendixb
-│   ├── example_102.go
-│   ├── example_103.go
-│   ├── ...
-├── appendixc
-│   ├── example_109.sh
-│   ├── example_110.go
-│   ├── ...
-├── appendixf
-│   ├── example_169.go
-│   ├── example_170.go
-│   ├── ...
-└── ...
+├── chapter1/    – Function fundamentals
+├── chapter2/    – Higherorder functions
+├── ...
+├── chapter14/   – Data migration patterns
+├── appendixa/   – Go tooling
+├── appendixb/   – Common pitfalls
+├── appendixc/   – Realworld patterns
+└── appendixf/   – Decision trees
 ```
 
-- **Chapters 1–14**: Contain the core examples illustrating advanced function design patterns, concurrency, performance, and more.  
-- **Appendices (A, B, C, F, etc.)**: Contain additional material, edge cases, or specialized topics referenced in the book.
+## Quick Start
 
+```bash
+git clone https://github.com/rezmoss/go-at-scale.git
+cd go-at-scale/chapter4
+go run example_25.go
+```
 
-## Learn More or Buy the Book
-For more details, deeper explanations, and additional tips on applying these patterns in real-world scenarios, [visit the author page](https://www.amazon.com/author/rezmoss).
+Each example is selfcontained and runnable independently.
 
-I hope this repository helps you explore and master the advanced patterns covered in _Go at Scale: Patterns for Professional Development_. Happy coding!
+## Get the Book
+
+- **[Amazon US](https://www.amazon.com/Go-Scale-Patterns-Professional-Development/dp/1069363006)**
+- Other countries: search **"Go at Scale Rez Moss"** on your local Amazon
+
+## More from the Author
+
+- [rezmoss.com/blog](https://rezmoss.com/blog) — Go tutorials and deep dives
+- [@rez_moss](https://twitter.com/rez_moss) on X
+- [DEV.to/rezmoss](https://dev.to/rezmoss)
+
+---
+
+If this helped you, please ⭐ **star this repo** it helps others find it!
